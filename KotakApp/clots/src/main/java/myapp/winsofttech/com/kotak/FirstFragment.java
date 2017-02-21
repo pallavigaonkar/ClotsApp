@@ -78,7 +78,7 @@ public class FirstFragment   extends Fragment {
     public void changeFragment(int position) {
         //  int fragmentId;
         switch (position) {
-            case R.id.oprations: {
+            case R.id.operations: {
                 //fragmentId = R.id.content_my_home;
                 //pushFragment(new CallLogEdit(), fragmentId);
                 pushFragment(new CallLogEdit());

@@ -5,7 +5,7 @@
     <group android:checkableBehavior="all">
 
   <item android:title="Operations"
-      android:id="@+id/oprations"
+      android:id="@+id/operations"
       android:enabled="true"
       app:showAsAction="ifRoom"
       android:icon="@mipmap/operations"

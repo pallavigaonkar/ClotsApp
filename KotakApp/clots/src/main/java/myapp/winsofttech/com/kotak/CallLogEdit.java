@@ -186,7 +186,7 @@ public class CallLogEdit extends Fragment{
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
                 switch (id){
-                    case R.id.oprations:
+                    case R.id.operations:
                         fragment = new CallLogEdit();
                         break;
                     case R.id.callreport:
