@@ -32,6 +32,7 @@ public class LoginActivity extends AppCompatActivity {
         button_Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 if(editText_password.getText().toString().equals("abcc")){
                     Intent i = new Intent(getApplicationContext(),Home.class);
                     startActivity(i);
